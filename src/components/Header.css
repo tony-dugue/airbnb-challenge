@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    z-index: 100;
+    top: 0;
+
+    width: 100%;
+    background-color: white;
+}
+
+.header__icon {
+    height: 100px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.header__center {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: fit-content;  /* pour centrer avec  width: 100% sur le parent */
+    padding: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+.header__center > input {
+    border: none;
+    padding: 10px;
+    outline-width: 0;  /* supprimer le cadre lors du focus */
+    width: 250px;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
+}
