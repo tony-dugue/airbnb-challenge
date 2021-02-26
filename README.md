@@ -32,11 +32,24 @@ Préparer le projet pour le déploiement :
 $ npm build
 ```
 
-## API
+## MAP
 ***
 
-Les films sont générés avec l'API
-[theMovieDb](https://www.themoviedb.org/)
+La map est généré avec la librairie 
+[Leaflet](https://leafletjs.com/)
+
+```sh
+$ npm install react react-dom leaflet
+```
+
+Pour intégrer la map avec React sous forme de composant, utilisation 
+de la 
+librairie 
+[React-leaflet](https://react-leaflet.js.org/)
+
+```sh
+$ npm install react-leaflet
+```
 
 
 

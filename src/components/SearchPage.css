@@ -16,3 +16,22 @@
     text-transform: inherit;
     margin: 5px;
 }
+
+.searchPage__listings {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.searchPage__left {
+    width: 60vw;
+}
+
+.searchPage__map {
+    flex-grow: 1;
+    height: 100vh;
+    top: 0;
+    margin-top: -101px;
+    position: sticky;
+    width: 100%;
+}
