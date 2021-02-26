@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "id": 960,
+      "location": "Chambre privée dans le centre de Londres",
+      "title": "Spacieuse maison de style Edouardienne",
+      "description": "1 voyageur · Studio · 1 salle de bain · 1 lit",
+      "options": "Wifi · Cuisine · Parking gratuit",
+      "star": 4.73,
+      "price": "£30 / nuit",
+      "total": "£117 total",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.515741079282144, -0.07208065437061122]
+      }
+    },
+    {
+      "id": 190,
+      "location": "Chambre dans une résidence de tourisme à Stratford",
+      "title": "Luxueux Appartement Studio",
+      "description": "2 voyageurs · 1 chambre · 2 lits · 1 salle de bain privée",
+      "options": "Wifi · Climatisation · Parking gratuit",
+      "star": 4.3,
+      "price": "£40 / nuit",
+      "total": "£157 total",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.55290094275423, -0.020582240809887825]
+      }
+    },
+    {
+      "id": 678,
+      "location": "Chambre privée à Borough londoniene d'Islington",
+      "title": "Comfortable Room in King's Cross Zone 1 Eurostar",
+      "description": "4 voyageurs · 3 chambres · 4 lits · 2 salles de bain partagées",
+      "options": "Wifi · Cuisine · Lave-linge · Sèche-linge",
+      "star": 3.8,
+      "price": "£35 / nuit",
+      "total": "£207 total",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.492233558976686, -0.19773678345877627]
+      }
+    },
+    {
+      "id": 784,
+      "location": "Logement entier dans le centre de Londres",
+      "title": "A 30 mins de Oxford Street, Excel London",
+      "description": "6 voyageurs · 4 chambres · 6 lits · 3 salles de bain",
+      "options": "Wifi · Ascenseur · Arrivée autonome",
+      "star": 4.1,
+      "price": "£55 / nuit",
+      "total": "£320 total",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.49180603726442, -0.1029797025070452]
+      }
+    },
+    {
+      "id": 840,
+      "location": "Logement entier à Pimlico",
+      "title": "Still Life Angel Deluxe",
+      "description": "2 voyageurs · 1 chambre · 1 lit · 1 salle de bain",
+      "options": "Wifi · Cuisine · Ascenseur",
+      "star": 5,
+      "price": "£60 / nuit",
+      "total": "£450 total",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.49039481905978, -0.14296178791120143]
+      }
+    },
+    {
+      "id": 298,
+      "location": "Chambre privée à Whitechapel/Brick Lane",
+      "title": "Bright Room with Balcony",
+      "description": "2 voyageurs · 1 chambre · 1 lit · 1 salle de bain partagée",
+      "options": "Wifi · Cuisine · Lave-linge · Sèche-linge",
+      "star": 4.23,
+      "price": "£65 / nuit",
+      "total": "£480 total",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.52218029656741, -0.07088274280915542]
+      }
+    },
+    {
+      "id": 935,
+      "location": "Logement entier à The West End",
+      "title": "Appartement de luxe 5 étoiles",
+      "description": "3 voyageurs · 2 chambres · 3 lits · 1 salle de bain partagée",
+      "options": "Wifi · Cuisine · Lave-linge",
+      "star": 3.85,
+      "price": "£90 / nuit",
+      "total": "£650 total",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.517418111279994, -0.13667055749664497]
+      }
+    }
+  ]
+}
