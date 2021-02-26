@@ -4,7 +4,7 @@ import './SearchResult.css';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import StarIcon from '@material-ui/icons/Star';
 
-function SearchResult({ img, location, title, description, options, star, price, total }) {
+function SearchResult({ img, location, title, description, options, star, price, currency, total }) {
     return (
         <div className="searchResult">
 
@@ -30,8 +30,8 @@ function SearchResult({ img, location, title, description, options, star, price,
                     </div>
 
                     <div className="searchResult__price">
-                        <h2>{price}</h2>
-                        <p>{total}</p>
+                        <h2>{currency}{price} / nuit</h2>
+                        <p>{currency}{total} total</p>
                     </div>
 
                 </div>
