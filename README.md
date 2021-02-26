@@ -9,9 +9,11 @@ installation des dépendances :
 $ npm install
 ```
 
-## DEMO
+## Démonstration
 
-[Voir une démo](https://airbnb-clone-e32af.web.app/)
+Application hébergé sur Firebase.
+
+[Voir une version de démonstration](https://airbnb-clone-e32af.web.app/)
 
 ## Démarrer l'application
 ***
