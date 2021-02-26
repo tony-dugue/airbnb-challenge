@@ -9,6 +9,10 @@ installation des dépendances :
 $ npm install
 ```
 
+## DEMO
+
+[Voir une démo](https://airbnb-clone-e32af.web.app/)
+
 ## Démarrer l'application
 ***
 
