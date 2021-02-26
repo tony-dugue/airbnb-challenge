@@ -57,5 +57,6 @@ librairie
 $ npm install react-leaflet
 ```
 
-
-
+Le fond de carte provient du site 
+[MapBox.com](https://www.mapbox.com/maps/streets)
+(API access token requis)
