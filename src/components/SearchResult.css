@@ -70,3 +70,10 @@
 .searchResult__price > p {
     text-align: right;
 }
+
+@media (max-width: 1200px) {
+    .searchResult > img {
+        width: 180px;
+        height: 150px;
+    }
+}

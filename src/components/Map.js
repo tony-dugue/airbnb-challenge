@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Map.css';
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { Icon } from "leaflet";
@@ -12,14 +12,12 @@ export const icon = new Icon({
 
 const Map = () => {
 
-    const [activeRoom, setActiveRoom] = useState(null);
-
     return (
         <div className="map__container">
-            <MapContainer center={[51.51702295890256, -0.1276989410161924]} zoom={12}>
+            <MapContainer center={[51.51702295890256, -0.1276989410161924]} zoom={13}>
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    url="https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2VsdGljc2NvcnBpb24iLCJhIjoiY2toc2NuajhmMXAwODJ1azZxdTdnNG05bCJ9.mlepF2c99ZjypqpuXdZZvg"
                 />
 
                 {roomsData.features.map(room => (
@@ -29,27 +27,17 @@ const Map = () => {
                             room.geometry.coordinates[0],
                             room.geometry.coordinates[1]
                         ]}
-                        onClick={() => {
-                            setActiveRoom(room);
-                        }}
                         icon={icon}
-                    />
-                ))}
-
-                {activeRoom && (
-                    <Popup
-                        position={[
-                            activeRoom.geometry.coordinates[0],
-                            activeRoom.geometry.coordinates[1]
-                        ]}
-                        onClose={ () => { setActiveRoom(null);}}
                     >
-                        <div>
-                            <h2>{activeRoom.title}</h2>
-                            <p>{activeRoom.price}</p>
-                        </div>
-                    </Popup>
-                )}
+                        <Popup>
+                            <div className="popup">
+                                <img className="popup__img" src={room.image} alt="" />
+                                <p className="popup__title">{room.title}</p>
+                                <p className="popup__price">{room.currency}{room.price} / nuit</p>
+                            </div>
+                        </Popup>
+                    </Marker>
+                ))}
 
             </MapContainer>
         </div>

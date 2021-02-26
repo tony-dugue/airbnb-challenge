@@ -35,3 +35,25 @@
     position: sticky;
     width: 100%;
 }
+
+@media (max-width: 1200px) {
+    .searchPage__left {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .searchPage__listings {
+        flex-direction: column-reverse;
+    }
+    .searchPage__map {
+        height: 40vh;
+        width: 100%;
+        flex-grow: 0;
+        top: 100px;
+        overflow: hidden;
+    }
+    .searchPage__left {
+        width: 100%;
+    }
+}
